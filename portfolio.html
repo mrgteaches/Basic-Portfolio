@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html>
-
-
     <head>
-            <meta charset="UTF-8">
-            <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-            <title>Portfolio Page</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <title>Portfolio Page</title>
     </head>
 
     <body>
-        <header>David Giles</header>
-
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Portolio</a>
-            <a href="#">Contact</a>
-        </nav>
-
-        <div id="content">
+        <header>
+            <div class="myname">
+                David Giles
+            </div>
+        
+            <nav>
+                <a href="./contact.html" class="button">Contact</a>
+                <a href="#" class="button">Portfolio</a>
+                <a href="./index.html" class="button">About</a>
+                </nav>
+        </header>
+            
+        <div id="portcontent">
 
             <div id="portfolio">
-                
-                <h2>Portfolio</h2>
-
-                <div id="image1">
+                <h1>Portfolio</h1>
+                <hr>
+                <div class="portimage" id="image1">
                     <img src="./assets/images/image1.jpg" alt="image1"/>
-                    <div id="hangman">Hangman</div>
+                    <div class="label" id="label1">Hangman</div>
                 </div>
-                <div id="image2">
+                <div class="portimage" id="image2">
                     <img src="./assets/images/image2.jpg" alt="image2"/>
-                    <div id="rpg">RPG Game</div>
+                    <div class="label" id="label2">RPG Game</div>
                 </div>
-                <div id="image3">
+                <div class="portimage" id="image3">
                     <img src="./assets/images/image3.jpg" alt="image3"/>
-                    <div id="trivia">Trivia Game</div>
+                    <div class="label" id="label3">Trivia Game</div>
                 </div>
-                <div id="image4">
+                <div class="portimage" id="image4">
                     <img src="./assets/images/image4.jpg" alt="image4"/>
-                    <div id="rutgers">Rutgers Info Widget</div>
+                    <div class="label" id="label4">Rutgers Info Widget</div>
                 </div>
-                <div id="image5">
+                <div class="portimage" id="image5">
                     <img src="./assets/images/image5.jpg" alt="image5"/>
-                    <div id="rock">Rock Paper Scissors</div>
+                    <div class="label" id="label5">Rock Paper Scissors</div>
                 </div>
-
             </div>
 
+            <div id="footer">Copyright @</div>
+
         </div>
-
-        <footer>Copyright @</footer>
-
-
     </body>
 </html>
