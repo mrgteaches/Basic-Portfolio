@@ -31,6 +31,10 @@
     right: 260px;
 }
 
+a:active {
+    color: #4aaaa5;
+}
+
 .content {
     clear: both;
     overflow: auto;
