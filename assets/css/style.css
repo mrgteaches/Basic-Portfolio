@@ -248,6 +248,19 @@ label {
     left: 0;
 }
 
+#image6 {
+    float: left;
+    position: relative;
+    margin: 10px 20px 20px 20px;
+}
+
+#label6 {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+}
+
 .label {
     background-color: #4aaaa5;
     color: white;
